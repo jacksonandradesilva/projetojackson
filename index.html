@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulario de Alunos</title>
+    
+    <style>
+        body{
+            background-color: antiquewhite;
+            margin:auto
+            
+        }
+
+        form{
+            background-color: beige;
+            margin: auto;
+            font-size: medium;
+
+        }
+        fieldset{
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+        }
+
+        #submit{
+            background-image: linear-gradient(to right,rgb(0,92,197),rgb(90,20,220));
+            width: 10%;
+            border:none;
+            padding: 15px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius:10px ;
+        }
+        footer{
+            margin: center;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: auto;
+        }
+
+    
+
+    </style>
+
+</head>
+
+
+<body>
+    <nav>
+        <li><a href="lista.html" > tela lista</a></li>
+     </nav>
+
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>CADASTRO</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text"name="nome"id="nome"class="inputUser" required>
+                    <label for="nome" class="labelinput">Nome:</label>
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="email"name="email"id="email"class="inputUser" required>
+                    <label for="email" class="labelinput">Email:</label>
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="password"name="senha"id="telefone"class="inputUser" required>
+                    <label for="passoword" class="labelinput">Senha:</label>
+                </div>
+                <br>
+             
+                                                  
+               
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar"id="submit" />
+               
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+
+<footer>
+    Criado: Jackson Andrade da Silva
+</footer>
+</html>
